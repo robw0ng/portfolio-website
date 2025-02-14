@@ -46,3 +46,21 @@
     max-height: 300px;
     border-radius: 100px;
 }
+
+@media (max-width: 900px) {
+    .row {
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .row img {
+        width: 100%;
+        margin-bottom: 20px;
+        align-self: center;
+    }
+
+    .paragraph {
+        text-align: center;
+    }
+}
