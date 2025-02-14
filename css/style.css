@@ -1,0 +1,90 @@
+header {
+    display: flex;
+    justify-content: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: #ccc;
+    padding: 20px 10px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    padding-left: 100px;
+    background-color: #212121;
+}
+
+.header-item{
+    margin-right: 40px;
+}
+
+.header-item a{
+    color: #ccc;
+    text-decoration: none;
+}
+
+.header-item a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #212121;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #ccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+html body {
+    padding-top: 60px;
+    background-color: #333;
+    box-sizing: border-box;
+    margin: 0;
+    padding-right: 0;
+    overflow-x: hidden;
+    background: linear-gradient(to bottom, #333, #121212);
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;;
+}
+
+#links a{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+#github {
+    width: 40px;
+}
+
+#linkedin {
+    width: 40px;
+}
+
+.active-page{
+    color: #111 !important;
+    background-color: #44e361;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+
+a {
+    color: #2d93f3;
+}
